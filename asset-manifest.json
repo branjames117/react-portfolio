@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.eb206bcf.css",
-    "main.js": "/react-portfolio/static/js/main.247afd2a.js",
+    "main.js": "/react-portfolio/static/js/main.443bb38d.js",
     "static/media/bonnapp21.jpg": "/react-portfolio/static/media/bonnapp21.a535ae87a771ff298c3a.jpg",
     "static/media/screenshot.jpg": "/react-portfolio/static/media/screenshot.feaf44d7d8ceebbaacda.jpg",
     "static/media/runbuddy.jpg": "/react-portfolio/static/media/runbuddy.a462dbb48450d5058635.jpg",
@@ -21,10 +21,10 @@
     "static/media/plexnamer.jpg": "/react-portfolio/static/media/plexnamer.ba8a27d7e44e8403fbb4.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.eb206bcf.css.map": "/react-portfolio/static/css/main.eb206bcf.css.map",
-    "main.247afd2a.js.map": "/react-portfolio/static/js/main.247afd2a.js.map"
+    "main.443bb38d.js.map": "/react-portfolio/static/js/main.443bb38d.js.map"
   },
   "entrypoints": [
     "static/css/main.eb206bcf.css",
-    "static/js/main.247afd2a.js"
+    "static/js/main.443bb38d.js"
   ]
 }
