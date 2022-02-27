@@ -17,9 +17,9 @@ Clone the repository in a CLI using the command `git clone` to download all sour
 
 ## Usage
 
-Upload React build files to hosting service such as GitHub Pages.
+Upload React build files to hosting service such as GitHub Pages or Netlify.
 
-The landing page is hosted [here](https://branjames117.github.io/brans-portfolio/).
+The landing page is hosted [here](https://branjamesweb.dev/).
 
 ![Screenshot](./public/images/screenshot.jpg)
 
