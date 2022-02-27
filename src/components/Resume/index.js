@@ -1,6 +1,9 @@
-export default function Resume() {
+export default function Resume({ activeComponent }) {
   return (
-    <section id='resume'>
+    <section
+      id='resume'
+      className={activeComponent === 'Resume' ? 'fade-in' : ''}
+    >
       <div className='container'>
         <article>
           <div className='center-text'>

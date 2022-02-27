@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export default function Contact() {
+export default function Contact({ activeComponent }) {
   const [formState, setFormState] = useState({
     name: '',
     email: '',
@@ -74,7 +74,10 @@ export default function Contact() {
   }
 
   return (
-    <section id='contact'>
+    <section
+      id='contact'
+      className={activeComponent === 'Contact' ? 'fade-in' : ''}
+    >
       <div className='container'>
         <article>
           <ul>

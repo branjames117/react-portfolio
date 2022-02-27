@@ -21,10 +21,18 @@ function App() {
         activeComponent={activeComponent}
         setActiveComponent={setActiveComponent}
       />
-      {activeComponent === 'About' && <About />}
-      {activeComponent === 'Projects' && <Projects />}
-      {activeComponent === 'Contact' && <Contact />}
-      {activeComponent === 'Resume' && <Resume />}
+      {activeComponent === 'About' && (
+        <About activeComponent={activeComponent} />
+      )}
+      {activeComponent === 'Projects' && (
+        <Projects activeComponent={activeComponent} />
+      )}
+      {activeComponent === 'Contact' && (
+        <Contact activeComponent={activeComponent} />
+      )}
+      {activeComponent === 'Resume' && (
+        <Resume activeComponent={activeComponent} />
+      )}
       <Footer />
     </>
   );

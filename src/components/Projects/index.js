@@ -1,7 +1,7 @@
 import BigProject from '../BigProject';
 import SmallProject from '../SmallProject';
 
-export default function Projects() {
+export default function Projects({ activeComponent }) {
   const bigProject = {
     liveLink: 'https://bonnapp21.vercel.app/',
     githubLink: 'https://github.com/branjames117/bonnapp21',
@@ -114,7 +114,10 @@ export default function Projects() {
   ];
 
   return (
-    <section id='projects'>
+    <section
+      id='projects'
+      className={activeComponent === 'Projects' ? 'fade-in' : ''}
+    >
       <div className='container'>
         <article>
           <BigProject project={bigProject} />

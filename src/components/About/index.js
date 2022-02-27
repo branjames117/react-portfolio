@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-export default function About() {
+export default function About({ activeComponent }) {
   useEffect(() => {
     let starNodes = document.querySelectorAll('.secret');
 
@@ -15,7 +15,10 @@ export default function About() {
   });
 
   return (
-    <section id='about'>
+    <section
+      id='about'
+      className={activeComponent === 'About' ? 'fade-in' : ''}
+    >
       <h1>Bran James &times; Web Design</h1>
       <img
         src={require('../../images/profile2.jpg')}

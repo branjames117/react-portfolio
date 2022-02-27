@@ -113,11 +113,30 @@ header nav ul li button {
 }
 
 header nav ul li button:hover {
-  transform: translateY(25%);
+  transform: translateY(5px) rotate(2deg);
+  transition: 0.2s ease;
 }
 
 .nav-active {
-  transform: translateY(25%);
+  transform: translateY(5px) rotate(2deg);
+}
+
+/* Fade-in section effects */
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.fade-in {
+  animation-name: fade-in;
+  animation-duration: 0.5s;
 }
 
 /* Hero section with intro and profile image */
