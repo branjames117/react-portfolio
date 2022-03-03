@@ -110,15 +110,17 @@ header nav ul {
 header nav ul li button {
   font-size: 2rem;
   position: relative;
+  transform: translateY(0) rotate(0deg);
+  transition: 0.5s linear;
 }
 
 header nav ul li button:hover {
-  transform: translateY(10px) rotate(3deg);
-  transition: 0.4s linear;
+  transform: translateY(14px) rotate(8deg);
+  transition: 0.5s linear;
 }
 
 .nav-active {
-  transform: translateY(10px) rotate(3deg);
+  transform: translateY(14px) rotate(8deg);
 }
 
 /* Fade-in section effects */
