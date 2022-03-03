@@ -2,21 +2,21 @@ export default function Resume({ activeComponent }) {
   return (
     <section
       id='resume'
-      className={activeComponent === 'Resume' ? 'fade-in' : ''}
+      className={activeComponent === "Resume" ? "fade-in" : ""}
     >
       <div className='container'>
         <article>
           <div className='center-text'>
             <a
               download='BrandonHoskinsCV.docx'
-              href={process.env.PUBLIC_URL + '/docs/BrandonHoskinsCV.docx'}
+              href={process.env.PUBLIC_URL + "/docs/BrandonHoskinsCV.docx"}
               className='accent-button'
             >
               Download as DOCX
             </a>
             <a
               download='BrandonHoskinsCV.pdf'
-              href={process.env.PUBLIC_URL + '/docs/BrandonHoskinsCV.pdf'}
+              href={process.env.PUBLIC_URL + "/docs/BrandonHoskinsCV.pdf"}
               className='accent-button'
             >
               Download as PDF
@@ -27,20 +27,20 @@ export default function Resume({ activeComponent }) {
               <br />
               Phone: 931-996-8997
               <br />
-              Email:{' '}
+              Email:{" "}
               <a href='mailto:branjames117@gmail.com'>branjames117@gmail.com</a>
               <br />
-              LinkedIn:
+              LinkedIn:{" "}
               <a href='https://linkedin.com/in/branjames117' target='new'>
                 linkedin.com/in/branjames117/
               </a>
               <br />
-              GitHub:{' '}
+              GitHub:{" "}
               <a href='https://github.com/branjames117' target='new'>
                 github.com/branjames117
               </a>
               <br />
-              Portfolio:{' '}
+              Portfolio:{" "}
               <a href='https://branjamesweb.dev/' target='new'>
                 branjamesweb.dev
               </a>
@@ -80,7 +80,7 @@ export default function Resume({ activeComponent }) {
 
           <div className='resume-subheader'>
             <div>BonnApp21</div>
-            Repo:{' '}
+            Repo:{" "}
             <a href='https://github.com/branjames117/bonnapp21'>
               https://github.com/branjames117/bonnapp21
             </a>
@@ -107,12 +107,12 @@ export default function Resume({ activeComponent }) {
 
           <div className='resume-subheader'>
             <div>LyriQuery</div>
-            Repo:{' '}
+            Repo:{" "}
             <a href='https://github.com/branjames117/lyriquery'>
               https://github.com/branjames117/lyriquery
             </a>
             <br />
-            Live:{' '}
+            Live:{" "}
             <a href='https://peaceful-basin-76013.herokuapp.com/'>
               https://peaceful-basin-76013.herokuapp.com
             </a>
@@ -133,7 +133,7 @@ export default function Resume({ activeComponent }) {
 
           <div className='resume-subheader'>
             <div>One Small Step</div>
-            Repo:{' '}
+            Repo:{" "}
             <a href='https://github.com/branjames117/one-small-step'>
               https://github.com/branjames117/one-small-step
             </a>
