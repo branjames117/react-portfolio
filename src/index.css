@@ -16,19 +16,19 @@ body {
   background-color: black;
   position: relative;
   color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1.3rem;
   line-height: 1.5;
 }
 
 body::after {
-  content: "";
+  content: '';
   background-image: linear-gradient(
       to bottom,
       rgba(245, 246, 252, 0) 0%,
       rgba(0, 0, 0, 1) 45%
     ),
-    url("./images/pexels-francesco-ungaro-998641.jpg");
+    url('./images/pexels-francesco-ungaro-998641.jpg');
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -378,7 +378,7 @@ textarea:focus {
   border: 0px;
 }
 
-button[type="submit"] {
+button[type='submit'] {
   background-color: white;
   border-radius: 5px;
   color: black;
@@ -386,13 +386,13 @@ button[type="submit"] {
   width: 100%;
 }
 
-button[type="submit"][disabled] {
+button[type='submit'][disabled] {
   background-color: transparent;
   color: white;
   width: 100%;
 }
 
-button[type="submit"]:hover {
+button[type='submit']:hover {
   cursor: pointer;
   transform: scale(0.98);
 }
@@ -471,7 +471,7 @@ footer p {
   /* Issue: A negative margin-bottom is the only way I've been able to eliminate the gap beneath the projects grid map? */
 
   #projects .container article {
-    grid-gap: 90px 25px;
+    grid-gap: 80px 25px;
     grid-template-columns: repeat(2, 35%);
     grid-template-rows: repeat(8, 6.5%);
   }
@@ -520,7 +520,7 @@ footer p {
   }
 
   #projects .container article {
-    grid-gap: 35px 25px;
+    grid-gap: 0 25px;
     grid-template-columns: 70% 1fr;
     grid-template-rows: repeat(12, 8%);
   }

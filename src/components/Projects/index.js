@@ -77,6 +77,15 @@ export default function Projects({ activeComponent }) {
       stack: 'Node, Express, Sequelize',
     },
     {
+      liveLink: 'https://nameless-garden-67694.herokuapp.com/',
+      githubLink: 'https://github.com/branjames117/shop-shop',
+      imageName: 'shop-shop.jpg',
+      altText: 'Ecommerce website.',
+      title: 'Shop Shop',
+      description: 'Via Vanderbilt Boot Camp',
+      stack: 'React, GraphQL, Stripe',
+    },
+    {
       liveLink: 'https://branjames117.github.io/password-generator/',
       githubLink: 'https://github.com/branjames117/password-generator',
       imageName: 'passwordgen.jpg',
@@ -92,15 +101,6 @@ export default function Projects({ activeComponent }) {
       title: 'PlexNamer',
       description: 'CLI File Renaming Script',
       stack: 'Python',
-    },
-    {
-      liveLink: 'https://branjames117.github.io/my-daily-life/',
-      githubLink: 'https://github.com/branjames117/my-daily-life',
-      imageName: 'mydailylife.jpg',
-      altText: 'App about scheduling your work day.',
-      title: 'My Daily Life',
-      description: 'Via Vanderbilt Boot Camp',
-      stack: 'jQuery, jQuery UI, Bootstrap',
     },
     {
       liveLink: 'https://branjames117.github.io/taskmasterpro/',
