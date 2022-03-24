@@ -14,6 +14,15 @@ export default function Projects({ activeComponent }) {
 
   const smallProjects = [
     {
+      liveLink: 'https://bash-hub.herokuapp.com/',
+      githubLink: 'https://github.com/branjames117/bashhub',
+      imageName: 'bashhub.jpg',
+      altText: 'Event organizing app.',
+      title: 'Bash Hub',
+      description: 'Event Organizer',
+      stack: 'React, MaterialUI, GraphQL',
+    },
+    {
       liveLink: 'https://devsparkio.herokuapp.com/',
       githubLink: 'https://github.com/branjames117/devspark',
       imageName: 'devspark.jpg',
@@ -84,15 +93,6 @@ export default function Projects({ activeComponent }) {
       title: 'Shop Shop',
       description: 'Via Vanderbilt Boot Camp',
       stack: 'React, GraphQL, Stripe',
-    },
-    {
-      liveLink: 'https://branjames117.github.io/password-generator/',
-      githubLink: 'https://github.com/branjames117/password-generator',
-      imageName: 'passwordgen.jpg',
-      altText: 'App with password generation capabilities.',
-      title: 'Password Generator',
-      description: 'Via Vanderbilt Boot Camp',
-      stack: 'JavaScript',
     },
     {
       githubLink: 'https://github.com/branjames117/plexnamer',
