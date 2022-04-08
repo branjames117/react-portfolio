@@ -63,13 +63,13 @@ export default function About({ activeComponent }) {
 
       <div className='container'>
         <p>
-          I'm Brandon James Hoskins, a full-stack web developer currently
-          enrolled in{' '}
+          I'm Brandon James Hoskins, a full-stack web developer and graduate
+          from{' '}
           <a href='https://bootcamps.vanderbilt.edu/coding/'>
             Vanderbilt University's Coding Boot Camp
           </a>
           . My skillset includes HTML5/CSS3 UI/UX design, MERN (MongoDB,
-          Express.js, React.js, and Node.js), Next.js, and Python, but I'm
+          Express.js, React.js, and Node.js), Next.js, AWS, and Python, but I'm
           always eager to adopt new technologies to find the most elegant
           solution. Outside of coding my passions include medieval literature,
           creative writing, earth stewardship, thinking about outer space,
