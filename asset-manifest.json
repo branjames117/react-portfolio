@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4babd3e8.css",
-    "main.js": "/static/js/main.7baa7d3c.js",
+    "main.js": "/static/js/main.939ab12e.js",
     "static/media/bonnapp21.jpg": "/static/media/bonnapp21.a535ae87a771ff298c3a.jpg",
     "static/media/screenshot.jpg": "/static/media/screenshot.feaf44d7d8ceebbaacda.jpg",
     "static/media/shop-shop.jpg": "/static/media/shop-shop.3e80f1147e3e2a0c4025.jpg",
@@ -23,10 +23,10 @@
     "static/media/plexnamer.jpg": "/static/media/plexnamer.ba8a27d7e44e8403fbb4.jpg",
     "index.html": "/index.html",
     "main.4babd3e8.css.map": "/static/css/main.4babd3e8.css.map",
-    "main.7baa7d3c.js.map": "/static/js/main.7baa7d3c.js.map"
+    "main.939ab12e.js.map": "/static/js/main.939ab12e.js.map"
   },
   "entrypoints": [
     "static/css/main.4babd3e8.css",
-    "static/js/main.7baa7d3c.js"
+    "static/js/main.939ab12e.js"
   ]
 }
