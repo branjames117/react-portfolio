@@ -2,21 +2,21 @@ export default function Resume({ activeComponent }) {
   return (
     <section
       id='resume'
-      className={activeComponent === "Resume" ? "fade-in" : ""}
+      className={activeComponent === 'Resume' ? 'fade-in' : ''}
     >
       <div className='container'>
         <article>
           <div className='center-text'>
             <a
               download='BrandonHoskinsCV.docx'
-              href={process.env.PUBLIC_URL + "/docs/BrandonHoskinsCV.docx"}
+              href={process.env.PUBLIC_URL + '/docs/BrandonHoskinsCV.docx'}
               className='accent-button'
             >
               Download as DOCX
             </a>
             <a
               download='BrandonHoskinsCV.pdf'
-              href={process.env.PUBLIC_URL + "/docs/BrandonHoskinsCV.pdf"}
+              href={process.env.PUBLIC_URL + '/docs/BrandonHoskinsCV.pdf'}
               className='accent-button'
             >
               Download as PDF
@@ -27,20 +27,20 @@ export default function Resume({ activeComponent }) {
               <br />
               Phone: 931-996-8997
               <br />
-              Email:{" "}
+              Email:{' '}
               <a href='mailto:branjames117@gmail.com'>branjames117@gmail.com</a>
               <br />
-              LinkedIn:{" "}
+              LinkedIn:{' '}
               <a href='https://linkedin.com/in/branjames117' target='new'>
                 linkedin.com/in/branjames117/
               </a>
               <br />
-              GitHub:{" "}
+              GitHub:{' '}
               <a href='https://github.com/branjames117' target='new'>
                 github.com/branjames117
               </a>
               <br />
-              Portfolio:{" "}
+              Portfolio:{' '}
               <a href='https://branjamesweb.dev/' target='new'>
                 branjamesweb.dev
               </a>
@@ -57,7 +57,7 @@ export default function Resume({ activeComponent }) {
             prior to enrolling in the 24-week Vanderbilt Coding Boot Camp. 5
             years team lead experience. Passionate about web development and
             design and combining user-friendly interfaces with sophisticated
-            back-end technologies. Lifelong learner.
+            back-end technologies.
           </div>
 
           <div className='center-text resume-header'>
@@ -65,13 +65,54 @@ export default function Resume({ activeComponent }) {
           </div>
 
           <div className='resume-subheader'>
-            <strong>Languages:</strong> JavaScript, SQL, HTML5, CSS3, Python
+            <strong>Languages:</strong> JavaScript, TypeScript, SQL, HTML5,
+            CSS3, Python.
             <br />
             <strong>Libraries and Frameworks:</strong> Node, Express, React,
-            Next, MongoDB, Bootstrap, Tailwind
+            Next, MongoDB, GraphQL, Bootstrap, Tailwind, MaterialUI, Aurelia.
             <br />
             <strong>Skills:</strong> Git and GitHub, Mobile Responsiveness and
-            Semantic HTML, Vercel, Heroku, AWS, ORM
+            Semantic HTML, Vercel, Heroku, AWS, ORM.
+          </div>
+
+          <div className='center-text resume-header'>
+            <h3>WORK EXPERIENCE</h3>
+          </div>
+
+          <div className='resume-subheader'>
+            <div>JavaScript Front-End Developer (May 2022 - Present)</div>
+            Gainwell Technologies - Remote
+            <br />
+            Developing a long-standing healthcare population management
+            application that uses the Aurelia front-end framework with
+            TypeScript and SCSS, for a growing Agile development team with two
+            decades of experience on the product.
+            <br />
+            <ul>
+              <li>
+                Using Visual Studio and VS Code for development, along with
+                Postman, MS SQL Server, and SourceTree.
+              </li>
+              <li>
+                Using Jira for agile issue tracking and project management.
+              </li>
+              <li>
+                Sprint planning, story grooming and prioritizing with the scrum
+                framework
+              </li>
+            </ul>
+          </div>
+
+          <div className='resume-subheader'>
+            <div>Team Lead/Technician (May 2016 - May 2022)</div>
+            A.O. Smith - APCOM - Franklin, TN
+            <br />
+            As setup operator, run and maintain machines on the production line
+            and change machine configurations. As team lead, manage employees
+            and operations of department and ensure quality and production goals
+            are met or exceeded; maintain lines of communication with
+            supervisors as well as maintenance and engineering.
+            <br />
           </div>
 
           <div className='center-text resume-header'>
@@ -80,7 +121,7 @@ export default function Resume({ activeComponent }) {
 
           <div className='resume-subheader'>
             <div>BonnApp21</div>
-            Repo:{" "}
+            Repo:{' '}
             <a href='https://github.com/branjames117/bonnapp21'>
               https://github.com/branjames117/bonnapp21
             </a>
@@ -107,12 +148,12 @@ export default function Resume({ activeComponent }) {
 
           <div className='resume-subheader'>
             <div>LyriQuery</div>
-            Repo:{" "}
+            Repo:{' '}
             <a href='https://github.com/branjames117/lyriquery'>
               https://github.com/branjames117/lyriquery
             </a>
             <br />
-            Live:{" "}
+            Live:{' '}
             <a href='https://peaceful-basin-76013.herokuapp.com/'>
               https://peaceful-basin-76013.herokuapp.com
             </a>
@@ -132,48 +173,25 @@ export default function Resume({ activeComponent }) {
           </div>
 
           <div className='resume-subheader'>
-            <div>One Small Step</div>
-            Repo:{" "}
-            <a href='https://github.com/branjames117/one-small-step'>
-              https://github.com/branjames117/one-small-step
+            <div>Bash Hub</div>
+            Repo:{' '}
+            <a href='https://github.com/branjames117/bashhub'>
+              https://github.com/branjames117/bashhub
             </a>
             <br />
             Live:
-            <a href='https://branjames117.github.io/one-small-step/'>
-              https://branjames117.github.io/one-small-step/
+            <a href='https://bash-hub.herokuapp.com/'>
+              https://bash-hub.herokuapp.com/
             </a>
             <br />
             <ul>
               <li>
-                Single-page application with various NASA and astronomy-related
-                APIs including Astronomy Picture of the Day, NASA Image and
-                Video Search, ISS Tracker, and Reddit.
+                Event organization and information sharing application built
+                with React and MaterialUI components, GraphQL via ApolloServer,
+                and Mongoose.
               </li>
-              <li>Acted as project lead with three other developers.</li>
-            </ul>
-          </div>
-
-          <div className='center-text resume-header'>
-            <h3>WORK EXPERIENCE</h3>
-          </div>
-
-          <div className='resume-subheader'>
-            <div>Team Lead/Technician (2016 - Current)</div>
-            A.O. Smith - APCOM - Franklin, TN
-            <br />
-            As setup operator, run and maintain machines on the production line
-            and change machine configurations. As team lead, manage employees
-            and operations of department and ensure quality and production goals
-            are met or exceeded; maintain lines of communication with
-            supervisors as well as maintenance and engineering.
-            <br />
-            <ul>
-              <li>
-                Became team lead over a large department one year after hire.
-              </li>
-              <li>
-                Consistently surpassed annual performance review expectations.
-              </li>
+              <li>User authentication with JSON web tokens.</li>
+              <li>• Image uploading via the Cloudinary API.</li>
             </ul>
           </div>
 
@@ -185,16 +203,15 @@ export default function Resume({ activeComponent }) {
             <div>Certificate</div>
             Vanderbilt Full-Stack Coding Boot Camp, Nashville, TN
             <br />A 24-week program developing skills in HTML, CSS, JavaScript,
-            Node, MySQL, MongoDB, Express, and React. Began in September 2021,
-            graduating in March 2022.
+            Node, MySQL, MongoDB, Express, and React. Graduated March 2022.
           </div>
 
           <div className='resume-subheader'>
             <div>Degree</div>
             University of Michigan, Dearborn, MI
             <br />
-            Bachelor of Arts with High Distinction, English major, German minor,
-            graduated 2009.
+            Bachelor of Arts with High Distinction, English major, German minor.
+            Graduated 2009.
           </div>
         </article>
       </div>

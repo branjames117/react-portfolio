@@ -49,16 +49,16 @@ export default function About({ activeComponent }) {
         MongoDB
       </h2>
       <h2 className='secret' id='secret8'>
-        Bootstrap
+        Aurelia
       </h2>
       <h2 className='secret' id='secret9'>
-        jQuery
+        TypeScript
       </h2>
       <h2 className='secret' id='secret10'>
         SQL
       </h2>
       <h2 className='secret' id='secret11'>
-        Tailwind
+        SCSS
       </h2>
 
       <div className='container'>
