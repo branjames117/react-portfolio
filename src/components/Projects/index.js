@@ -14,7 +14,6 @@ export default function Projects({ activeComponent }) {
 
   const smallProjects = [
     {
-      liveLink: 'https://bash-hub.herokuapp.com/',
       githubLink: 'https://github.com/branjames117/bashhub',
       imageName: 'bashhub.jpg',
       altText: 'Event organizing app.',
@@ -23,7 +22,6 @@ export default function Projects({ activeComponent }) {
       stack: 'React, MaterialUI, GraphQL',
     },
     {
-      liveLink: 'https://devsparkio.herokuapp.com/',
       githubLink: 'https://github.com/branjames117/devspark',
       imageName: 'devspark.jpg',
       altText: 'App showing dating app.',
@@ -32,7 +30,6 @@ export default function Projects({ activeComponent }) {
       stack: 'Node, Sequelize, MVC',
     },
     {
-      liveLink: 'https://peaceful-basin-76013.herokuapp.com/',
       githubLink: 'https://github.com/branjames117/lyriquery',
       imageName: 'lyriquery.jpg',
       altText: 'App with search engine related to music lyrics.',
@@ -50,7 +47,6 @@ export default function Projects({ activeComponent }) {
       stack: 'JavaScript, Tailwind, HTML',
     },
     {
-      liveLink: 'https://mltarts.herokuapp.com/',
       githubLink: 'https://github.com/branjames117/mltarts',
       imageName: 'mltarts.jpg',
       altText: 'Website for a local theatre company.',
@@ -77,7 +73,6 @@ export default function Projects({ activeComponent }) {
       stack: 'JavaScript, HTML, CSS',
     },
     {
-      liveLink: 'https://obscure-mesa-27013.herokuapp.com/',
       githubLink: 'https://github.com/branjames117/eweblog',
       imageName: 'eweblog.jpg',
       altText: 'Blog with standard blog features.',
@@ -86,7 +81,6 @@ export default function Projects({ activeComponent }) {
       stack: 'Node, Express, Sequelize',
     },
     {
-      liveLink: 'https://nameless-garden-67694.herokuapp.com/',
       githubLink: 'https://github.com/branjames117/shop-shop',
       imageName: 'shop-shop.jpg',
       altText: 'Ecommerce website.',
